@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: apm-devops-node
+  host: apm-devops-node
+  disk_quota: 1024M
+  services:
+  - apm-devops-node-cloudantNoSQLDB
+  - Language Translator-lh
+  - Conversation-ak
